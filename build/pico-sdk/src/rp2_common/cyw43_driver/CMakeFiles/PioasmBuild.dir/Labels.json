@@ -1,0 +1,43 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/Users/pascal/Documents/Private Documents/Developer/C++/Personal/raspberry_pi_pico/pico-project-generator/Pico_SDK_PCA9745B_Library/build/pico-sdk/src/rp2_common/cyw43_driver/CMakeFiles/PioasmBuild"
+		},
+		{
+			"file" : "/Users/pascal/Documents/Private Documents/Developer/C++/Personal/raspberry_pi_pico/pico-project-generator/Pico_SDK_PCA9745B_Library/build/pico-sdk/src/rp2_common/cyw43_driver/CMakeFiles/PioasmBuild.rule"
+		},
+		{
+			"file" : "/Users/pascal/Documents/Private Documents/Developer/C++/Personal/raspberry_pi_pico/pico-project-generator/Pico_SDK_PCA9745B_Library/build/pico-sdk/src/rp2_common/cyw43_driver/CMakeFiles/PioasmBuild-complete.rule"
+		},
+		{
+			"file" : "/Users/pascal/Documents/Private Documents/Developer/C++/Personal/raspberry_pi_pico/pico-project-generator/Pico_SDK_PCA9745B_Library/build/pico-sdk/src/rp2_common/cyw43_driver/pioasm/src/PioasmBuild-stamp/PioasmBuild-build.rule"
+		},
+		{
+			"file" : "/Users/pascal/Documents/Private Documents/Developer/C++/Personal/raspberry_pi_pico/pico-project-generator/Pico_SDK_PCA9745B_Library/build/pico-sdk/src/rp2_common/cyw43_driver/pioasm/src/PioasmBuild-stamp/PioasmBuild-configure.rule"
+		},
+		{
+			"file" : "/Users/pascal/Documents/Private Documents/Developer/C++/Personal/raspberry_pi_pico/pico-project-generator/Pico_SDK_PCA9745B_Library/build/pico-sdk/src/rp2_common/cyw43_driver/pioasm/src/PioasmBuild-stamp/PioasmBuild-download.rule"
+		},
+		{
+			"file" : "/Users/pascal/Documents/Private Documents/Developer/C++/Personal/raspberry_pi_pico/pico-project-generator/Pico_SDK_PCA9745B_Library/build/pico-sdk/src/rp2_common/cyw43_driver/pioasm/src/PioasmBuild-stamp/PioasmBuild-install.rule"
+		},
+		{
+			"file" : "/Users/pascal/Documents/Private Documents/Developer/C++/Personal/raspberry_pi_pico/pico-project-generator/Pico_SDK_PCA9745B_Library/build/pico-sdk/src/rp2_common/cyw43_driver/pioasm/src/PioasmBuild-stamp/PioasmBuild-mkdir.rule"
+		},
+		{
+			"file" : "/Users/pascal/Documents/Private Documents/Developer/C++/Personal/raspberry_pi_pico/pico-project-generator/Pico_SDK_PCA9745B_Library/build/pico-sdk/src/rp2_common/cyw43_driver/pioasm/src/PioasmBuild-stamp/PioasmBuild-patch.rule"
+		},
+		{
+			"file" : "/Users/pascal/Documents/Private Documents/Developer/C++/Personal/raspberry_pi_pico/pico-project-generator/Pico_SDK_PCA9745B_Library/build/pico-sdk/src/rp2_common/cyw43_driver/pioasm/src/PioasmBuild-stamp/PioasmBuild-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"PioasmBuild"
+		],
+		"name" : "PioasmBuild"
+	}
+}
