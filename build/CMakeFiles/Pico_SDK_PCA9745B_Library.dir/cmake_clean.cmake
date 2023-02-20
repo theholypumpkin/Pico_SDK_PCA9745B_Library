@@ -1,6 +1,4 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/Pico_SDK_PCA9745B_Library.dir/Pico_SDK_PCA9745B_Library.cpp.obj"
-  "CMakeFiles/Pico_SDK_PCA9745B_Library.dir/Pico_SDK_PCA9745B_Library.cpp.obj.d"
   "CMakeFiles/Pico_SDK_PCA9745B_Library.dir/Users/pascal/Documents/Private_Documents/Developer/C++/Personal/raspberry_pi_pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.obj"
   "CMakeFiles/Pico_SDK_PCA9745B_Library.dir/Users/pascal/Documents/Private_Documents/Developer/C++/Personal/raspberry_pi_pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.obj.d"
   "CMakeFiles/Pico_SDK_PCA9745B_Library.dir/Users/pascal/Documents/Private_Documents/Developer/C++/Personal/raspberry_pi_pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj"
@@ -132,6 +130,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/Pico_SDK_PCA9745B_Library.dir/Users/pascal/Documents/Private_Documents/Developer/C++/Personal/raspberry_pi_pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj.d"
   "CMakeFiles/Pico_SDK_PCA9745B_Library.dir/Users/pascal/Documents/Private_Documents/Developer/C++/Personal/raspberry_pi_pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj"
   "CMakeFiles/Pico_SDK_PCA9745B_Library.dir/Users/pascal/Documents/Private_Documents/Developer/C++/Personal/raspberry_pi_pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj.d"
+  "CMakeFiles/Pico_SDK_PCA9745B_Library.dir/src/Pico_SDK_PCA9745B_Library.cpp.obj"
+  "CMakeFiles/Pico_SDK_PCA9745B_Library.dir/src/Pico_SDK_PCA9745B_Library.cpp.obj.d"
   "Pico_SDK_PCA9745B_Library.elf"
   "Pico_SDK_PCA9745B_Library.pdb"
 )

@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "pico-sdk/src/rp2_common/hardware_irq",
+		"source" : "/Users/pascal/Documents/Private Documents/Developer/C++/Personal/raspberry_pi_pico/pico-sdk/src/rp2_common/hardware_irq"
+	}
+}

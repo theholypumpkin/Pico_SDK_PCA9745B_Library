@@ -3,7 +3,7 @@
 
 # Relative path conversion top directories.
 set(CMAKE_RELATIVE_PATH_TOP_SOURCE "/Users/pascal/Documents/Private Documents/Developer/C++/Personal/raspberry_pi_pico/pico-sdk")
-set(CMAKE_RELATIVE_PATH_TOP_BINARY "/Users/pascal/Documents/Private Documents/Developer/C++/Personal/raspberry_pi_pico/pico-project-generator/Pico_SDK_PCA9745B_Library/build")
+set(CMAKE_RELATIVE_PATH_TOP_BINARY "/Users/pascal/Documents/Private Documents/Developer/C++/Personal/raspberry_pi_pico/Projects/Pico_SDK_PCA9745B_Library/build")
 
 # Force unix paths in dependencies.
 set(CMAKE_FORCE_UNIX_PATHS 1)

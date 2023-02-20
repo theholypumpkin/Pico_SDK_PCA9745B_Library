@@ -26,8 +26,11 @@ set(PICO_CXX_ENABLE_EXCEPTIONS 1)
 pico_sdk_init()
 
 # Add executable. Default name is the project name, version 0.1
-
-add_executable(Pico_SDK_PCA9745B_Library Pico_SDK_PCA9745B_Library.cpp )
+# add_library(src_dir Pico_SDK_PCA9745B_Library.cpp) # If there is also a src file in the root
+add_subdirectory(src)
+add_subdirectory(lib)
+add_subdirectory(include)
+add_executable(Pico_SDK_PCA9745B_Library src/Pico_SDK_PCA9745B_Library.cpp)
 
 pico_set_program_name(Pico_SDK_PCA9745B_Library "Pico_SDK_PCA9745B_Library")
 pico_set_program_version(Pico_SDK_PCA9745B_Library "0.1")

@@ -39,9 +39,9 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/Users/pascal/Documents/Private Documents/Developer/C++/Personal/raspberry_pi_pico/pico-project-generator/Pico_SDK_PCA9745B_Library/build/pico-sdk/src/common/cmake_install.cmake")
-  include("/Users/pascal/Documents/Private Documents/Developer/C++/Personal/raspberry_pi_pico/pico-project-generator/Pico_SDK_PCA9745B_Library/build/pico-sdk/src/rp2_common/cmake_install.cmake")
-  include("/Users/pascal/Documents/Private Documents/Developer/C++/Personal/raspberry_pi_pico/pico-project-generator/Pico_SDK_PCA9745B_Library/build/pico-sdk/src/rp2040/cmake_install.cmake")
+  include("/Users/pascal/Documents/Private Documents/Developer/C++/Personal/raspberry_pi_pico/Projects/Pico_SDK_PCA9745B_Library/build/pico-sdk/src/common/cmake_install.cmake")
+  include("/Users/pascal/Documents/Private Documents/Developer/C++/Personal/raspberry_pi_pico/Projects/Pico_SDK_PCA9745B_Library/build/pico-sdk/src/rp2_common/cmake_install.cmake")
+  include("/Users/pascal/Documents/Private Documents/Developer/C++/Personal/raspberry_pi_pico/Projects/Pico_SDK_PCA9745B_Library/build/pico-sdk/src/rp2040/cmake_install.cmake")
 
 endif()
 

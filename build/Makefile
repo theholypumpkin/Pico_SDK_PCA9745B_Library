@@ -57,10 +57,10 @@ RM = /usr/local/Cellar/cmake/3.25.2/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/Users/pascal/Documents/Private Documents/Developer/C++/Personal/raspberry_pi_pico/pico-project-generator/Pico_SDK_PCA9745B_Library"
+CMAKE_SOURCE_DIR = "/Users/pascal/Documents/Private Documents/Developer/C++/Personal/raspberry_pi_pico/Projects/Pico_SDK_PCA9745B_Library"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/Users/pascal/Documents/Private Documents/Developer/C++/Personal/raspberry_pi_pico/pico-project-generator/Pico_SDK_PCA9745B_Library/build"
+CMAKE_BINARY_DIR = "/Users/pascal/Documents/Private Documents/Developer/C++/Personal/raspberry_pi_pico/Projects/Pico_SDK_PCA9745B_Library/build"
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,9 +87,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/pascal/Documents/Private Documents/Developer/C++/Personal/raspberry_pi_pico/pico-project-generator/Pico_SDK_PCA9745B_Library/build/CMakeFiles" "/Users/pascal/Documents/Private Documents/Developer/C++/Personal/raspberry_pi_pico/pico-project-generator/Pico_SDK_PCA9745B_Library/build//CMakeFiles/progress.marks"
+	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/pascal/Documents/Private Documents/Developer/C++/Personal/raspberry_pi_pico/Projects/Pico_SDK_PCA9745B_Library/build/CMakeFiles" "/Users/pascal/Documents/Private Documents/Developer/C++/Personal/raspberry_pi_pico/Projects/Pico_SDK_PCA9745B_Library/build//CMakeFiles/progress.marks"
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/pascal/Documents/Private Documents/Developer/C++/Personal/raspberry_pi_pico/pico-project-generator/Pico_SDK_PCA9745B_Library/build/CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/pascal/Documents/Private Documents/Developer/C++/Personal/raspberry_pi_pico/Projects/Pico_SDK_PCA9745B_Library/build/CMakeFiles" 0
 .PHONY : all
 
 # The main clean target
@@ -219,30 +219,6 @@ cyw43_driver_picow_cyw43_bus_pio_spi_pio_h: cmake_check_build_system
 cyw43_driver_picow_cyw43_bus_pio_spi_pio_h/fast:
 	$(MAKE) $(MAKESILENT) -f pico-sdk/src/rp2_common/cyw43_driver/CMakeFiles/cyw43_driver_picow_cyw43_bus_pio_spi_pio_h.dir/build.make pico-sdk/src/rp2_common/cyw43_driver/CMakeFiles/cyw43_driver_picow_cyw43_bus_pio_spi_pio_h.dir/build
 .PHONY : cyw43_driver_picow_cyw43_bus_pio_spi_pio_h/fast
-
-Pico_SDK_PCA9745B_Library.obj: Pico_SDK_PCA9745B_Library.cpp.obj
-.PHONY : Pico_SDK_PCA9745B_Library.obj
-
-# target to build an object file
-Pico_SDK_PCA9745B_Library.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Pico_SDK_PCA9745B_Library.dir/build.make CMakeFiles/Pico_SDK_PCA9745B_Library.dir/Pico_SDK_PCA9745B_Library.cpp.obj
-.PHONY : Pico_SDK_PCA9745B_Library.cpp.obj
-
-Pico_SDK_PCA9745B_Library.i: Pico_SDK_PCA9745B_Library.cpp.i
-.PHONY : Pico_SDK_PCA9745B_Library.i
-
-# target to preprocess a source file
-Pico_SDK_PCA9745B_Library.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Pico_SDK_PCA9745B_Library.dir/build.make CMakeFiles/Pico_SDK_PCA9745B_Library.dir/Pico_SDK_PCA9745B_Library.cpp.i
-.PHONY : Pico_SDK_PCA9745B_Library.cpp.i
-
-Pico_SDK_PCA9745B_Library.s: Pico_SDK_PCA9745B_Library.cpp.s
-.PHONY : Pico_SDK_PCA9745B_Library.s
-
-# target to generate assembly for a file
-Pico_SDK_PCA9745B_Library.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Pico_SDK_PCA9745B_Library.dir/build.make CMakeFiles/Pico_SDK_PCA9745B_Library.dir/Pico_SDK_PCA9745B_Library.cpp.s
-.PHONY : Pico_SDK_PCA9745B_Library.cpp.s
 
 Users/pascal/Documents/Private_Documents/Developer/C++/Personal/raspberry_pi_pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.obj: Users/pascal/Documents/Private_Documents/Developer/C++/Personal/raspberry_pi_pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.obj
 .PHONY : Users/pascal/Documents/Private_Documents/Developer/C++/Personal/raspberry_pi_pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.obj
@@ -1772,6 +1748,30 @@ Users/pascal/Documents/Private_Documents/Developer/C++/Personal/raspberry_pi_pic
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Pico_SDK_PCA9745B_Library.dir/build.make CMakeFiles/Pico_SDK_PCA9745B_Library.dir/Users/pascal/Documents/Private_Documents/Developer/C++/Personal/raspberry_pi_pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.s
 .PHONY : Users/pascal/Documents/Private_Documents/Developer/C++/Personal/raspberry_pi_pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.s
 
+src/Pico_SDK_PCA9745B_Library.obj: src/Pico_SDK_PCA9745B_Library.cpp.obj
+.PHONY : src/Pico_SDK_PCA9745B_Library.obj
+
+# target to build an object file
+src/Pico_SDK_PCA9745B_Library.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Pico_SDK_PCA9745B_Library.dir/build.make CMakeFiles/Pico_SDK_PCA9745B_Library.dir/src/Pico_SDK_PCA9745B_Library.cpp.obj
+.PHONY : src/Pico_SDK_PCA9745B_Library.cpp.obj
+
+src/Pico_SDK_PCA9745B_Library.i: src/Pico_SDK_PCA9745B_Library.cpp.i
+.PHONY : src/Pico_SDK_PCA9745B_Library.i
+
+# target to preprocess a source file
+src/Pico_SDK_PCA9745B_Library.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Pico_SDK_PCA9745B_Library.dir/build.make CMakeFiles/Pico_SDK_PCA9745B_Library.dir/src/Pico_SDK_PCA9745B_Library.cpp.i
+.PHONY : src/Pico_SDK_PCA9745B_Library.cpp.i
+
+src/Pico_SDK_PCA9745B_Library.s: src/Pico_SDK_PCA9745B_Library.cpp.s
+.PHONY : src/Pico_SDK_PCA9745B_Library.s
+
+# target to generate assembly for a file
+src/Pico_SDK_PCA9745B_Library.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Pico_SDK_PCA9745B_Library.dir/build.make CMakeFiles/Pico_SDK_PCA9745B_Library.dir/src/Pico_SDK_PCA9745B_Library.cpp.s
+.PHONY : src/Pico_SDK_PCA9745B_Library.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -1788,9 +1788,6 @@ help:
 	@echo "... cyw43_firmware_package"
 	@echo "... Pico_SDK_PCA9745B_Library"
 	@echo "... bs2_default"
-	@echo "... Pico_SDK_PCA9745B_Library.obj"
-	@echo "... Pico_SDK_PCA9745B_Library.i"
-	@echo "... Pico_SDK_PCA9745B_Library.s"
 	@echo "... Users/pascal/Documents/Private_Documents/Developer/C++/Personal/raspberry_pi_pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.obj"
 	@echo "... Users/pascal/Documents/Private_Documents/Developer/C++/Personal/raspberry_pi_pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.i"
 	@echo "... Users/pascal/Documents/Private_Documents/Developer/C++/Personal/raspberry_pi_pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.s"
@@ -1982,6 +1979,9 @@ help:
 	@echo "... Users/pascal/Documents/Private_Documents/Developer/C++/Personal/raspberry_pi_pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.obj"
 	@echo "... Users/pascal/Documents/Private_Documents/Developer/C++/Personal/raspberry_pi_pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.i"
 	@echo "... Users/pascal/Documents/Private_Documents/Developer/C++/Personal/raspberry_pi_pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.s"
+	@echo "... src/Pico_SDK_PCA9745B_Library.obj"
+	@echo "... src/Pico_SDK_PCA9745B_Library.i"
+	@echo "... src/Pico_SDK_PCA9745B_Library.s"
 .PHONY : help
 
 
